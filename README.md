@@ -31,8 +31,8 @@ https://github.com/ictnlp/GMA
     data="~/hang/data"
 
 # add --joined-dictionary for WMT15 German-English
-fairseq-preprocess --source-lang ${src} --target-lang ${tgt} \
-    --joined-dictionary\    #没有这一行 下一步训练会失败， 加一个字典 使得两个维度一样
+    fairseq-preprocess --source-lang ${src} --target-lang ${tgt} \
+    --joined-dictionary\     #没有这一行 下一步训练会失败， 加一个字典 使得两个维度一样
     --trainpref ${train_data} --validpref ${vaild_data} \
     --testpref ${test_data}\
     --destdir ${data} \
