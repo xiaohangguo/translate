@@ -1,8 +1,12 @@
 # translate
 A traning translate project
+
 https://github.com/ictnlp/MoE-Waitk.git
+
 https://github.com/ictnlp/MoE-Waitk
+
 git clone https://github.com/ictnlp/GMA.git
+
 https://github.com/ictnlp/GMA
 
 
@@ -118,6 +122,7 @@ Train MoE Wait-k Policy in two stage, according to the following command:
      --max-tokens 4096 --update-freq 2
 2.Second-stage: jointly ﬁne-tune the parameters of experts and their weights.
     #Sencond-stage: Finetune MoE Wait-k with various expert weights
+    
     python train.py  --ddp-backend=no_c10d ${data} --arch transformer --share-all-embeddings \
      --optimizer adam \
      --adam-betas '(0.9, 0.98)' \
