@@ -1,4 +1,4 @@
-# 具体项目文件以及脚本在main分支
+# 具体项目文件以及脚本在master分支下
 
 # translate
 A traning translate project
