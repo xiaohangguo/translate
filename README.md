@@ -1,3 +1,5 @@
+# 具体项目文件以及脚本在main分支
+
 # translate
 A traning translate project
 
